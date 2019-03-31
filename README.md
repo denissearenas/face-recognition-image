@@ -69,7 +69,7 @@ distance < tolerance*0.68
 
 ## Output Example
 
-Here is an example of and output image :
+Here an example of an output image:
 
 ![](https://github.com/denissearenas/face-recognition-image/blob/master/Workingfolder/OutputImages/test_01_20190331_193110.PNG?raw=true)
 
