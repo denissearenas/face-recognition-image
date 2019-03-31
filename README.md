@@ -33,10 +33,11 @@ project
 2. Add into `Workingfolder/TestImages` the images to tag people in. 
 
 3. Run `main.py`
+    - You can change the tolerance. The lower the tolerance more strict becomes the matching.  
 
 ## Colors
 
-Depending on the distance there is a color code for the rectangles drawn. By default the tolerance is 0.6 and the colors as set as a proportion of the tolerance. Then by default this are the color codes:
+Depending on the distance there is a color code for the rectangles drawn. By default the tolerance is 0.6 and the colors are set as a proportion of the tolerance. Then by default this are the color codes:
 
 - ![#606060](https://placehold.it/15/606060"/000000?text=+) `Grey`
 
@@ -65,6 +66,12 @@ distance >= tolerance*0.68
 distance < tolerance*0.68
 [default: distance < 0.60*0.68 => distance < 0.408]
 ```
+
+##Output Example
+
+Here is an example of and output image :
+
+![](https://github.com/denissearenas/face-recognition-image/blob/master/Workingfolder/OutputImages/test_01_20190331_193110.PNG?raw=true){:class="img-responsive"}
 
 
 ## Credits 
