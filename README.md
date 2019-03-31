@@ -38,28 +38,28 @@ project
 
 Depending on the distance there is a color code for the rectangles drawn. By default the tolerance is 0.6 and the colors as set as a proportion of the tolerance. Then by default this are the color codes:
 
-- <span style="background-color:#606060"> Grey </span>
+- ![#606060](https://placehold.it/15/606060"/000000?text=+) `Grey`
+
 ```
-Unknown
 distance > tolerance 
 default: distance > 0.60
 ```
 
-- <span style="background-color:#640000"> Red </span> 
+- ![#640000](https://placehold.it/15/640000"/000000?text=+) `Red`
 
 ```
 distance > tolerance*0.84 
 [default: distance >= 0.60*0.84 => distance >= 0.504]
 ```
 
-- <span style="background-color:#ff8000"> Orange </span> 
+- ![#ff8000](https://placehold.it/15/ff8000"/000000?text=+) `Orange`
 
 ```
 distance >= tolerance*0.68
 [default: distance >= 0.60*0.68 => distance >= 0.408]
 ```
 
-- <span style="background-color:#006400"> Green </span> 
+- ![#006400](https://placehold.it/15/006400"/000000?text=+) `Green`
 
 ```
 distance < tolerance*0.68
