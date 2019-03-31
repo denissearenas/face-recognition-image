@@ -67,11 +67,11 @@ distance < tolerance*0.68
 [default: distance < 0.60*0.68 => distance < 0.408]
 ```
 
-##Output Example
+## Output Example
 
 Here is an example of and output image :
 
-![](https://github.com/denissearenas/face-recognition-image/blob/master/Workingfolder/OutputImages/test_01_20190331_193110.PNG?raw=true){:class="img-responsive"}
+![](https://github.com/denissearenas/face-recognition-image/blob/master/Workingfolder/OutputImages/test_01_20190331_193110.PNG?raw=true)
 
 
 ## Credits 
